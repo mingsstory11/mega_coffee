@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>메가커피 복습 민경</title>
+  <style>
+    *{margin: 0 padding 0;
+    box-sizing: border-box;}
+    ul{list-style: none;}
+    a{text-decoration: none;color: black;}
+    img{border: 0;vertical-align: top;}
+    header{
+      width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center; 
+    }
+    header .head-logo img{
+      width: 200px;
+      margin-top: 40px;
+    }
+    header .gnb{
+      font-size: 18px;
+      display: flex;
+      justify-content: space-between;
+      gap: 60px;
+      margin-top: 50px;
+    }
+    header .head-icon{
+      display: flex;
+      gap: 7px;
+      margin-top: 30px;
+    }
+    header .head-icon img{
+      border: 2px solid black;
+      border-radius: 50%;
+      padding: 3px;
+    }
+    main .hero-bg{
+      width: 100%;
+      height: 300px;
+      background-color: rgb(58, 58, 57);
+      margin-top: 40px;
+    }
+    .hero{
+      width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .hero-txt{
+      font-size: 24px;
+      color: aliceblue;
+      margin: 0 0 20px;
+      text-align: center;
+      padding-top: 60px;
+    }
+    .hero h1{
+      color: rgb(252, 208, 0);
+      font-size: 70px;
+      font-weight: 900;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .hero ul{
+      display: flex;
+      justify-content: space-between;
+      font-size: 18px;
+      gap: 30px;
+      margin-left: -45px;
+      color: aliceblue;
+      font-weight: 80;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="head-logo"><img src="MEGA_images/new_logo.png" alt="헤더로고"></div>
+    <ul class="gnb">
+      <li><a href="#">메가 스토리</a></li>
+      <li><a href="#">메뉴소개</a></li>
+      <li><a href="#">매장</a></li>
+      <li><a href="#">창업안내</a></li>
+      <li><a href="#">메가소식</a></li>
+      <li><a href="#">채용</a></li>
+    </ul>
+    <div class="head-icon">
+      <img src="MEGA_images/sns_blog.png" alt="블로그">
+      <img src="MEGA_images/sns_facebook.png" alt="페이스북">
+      <img src="MEGA_images/sns_instagram.png" alt="인스타">
+      <img src="MEGA_images/sns_smartstore.png" alt="스토어">
+    </div>
+  </header>
+  <main>
+    <div class="hero-bg">
+      <div class="hero">
+        <p class="hero-txt">MEGA START</p>
+        <h1>INTERIOR</h1>
+          <ul>
+            <li>홈</li>
+            <li>창업안내</li>
+            <li>인테리어</li>
+          </ul>
+      </div>
+    </div>
+    <div class="main-interior"><!--메인 상단-->
+      <div class="main-left-t"><!--백그라운드 이미지 넣을거야-->
+        <h1>STORE INTERIOR</h1>
+        <p>메가 mgc 커피 내부 인테리어</p>
+        <p>고급스럽고 깔끔한 화이트톤 컬러와 나무소재 사용,<br>
+          스포트 조명으로 고객들이 편안하고 안락하게<br>
+          쉬어갈 수 있는 공간으로 설계 되었습니다.<br>
+        </p>
+      </div>
+      <div class="main-right"><!--내부 인테리어 이미지와 텍스트-->
+        <div>
+          <img src="MEGA_images/interior01_2_240911.jpg" alt="">
+        </div>
+        <div class="main-right-t"><!--내부 인테리어 텍스트-->
+          <h1><strong>TASTY</strong> & COMFY</h1>
+          <p>"맛있는 음료와 함께 편안하게 쉴 수 있는 공간"</p>
+        </div>
+        <div class="main-right-i"><!--내부하단 이미지-->
+          <img src="MEGA_images/interior01_3_240911.jpg" alt="내부1">
+          <img src="MEGA_images/interior01_4_240911.jpg" alt="내부2">
+        </div>
+      </div>
+    </div>
+    <div class="main-exterior"><!--메인 하단-->
+      <div class="ex-first"><!--메인 하단 첫번째-->
+        <div class="ex-top">
+          <h1>STORE EXTERIOR</h1>
+          <P>메가 mgc 커피 외부 인테리어</P>
+          <p>
+            가시성이 극대화된 밝고 감각적인 옐로우 컬러를<br>
+            사용하였으며, TAKE OUT이 용이한 전용 창을<br>
+            만들어 매장운영의  효율성을 높였습니다.
+          </p>
+        </div>
+        <ul class="icon-txt">
+          <li>
+            <img src="MEGA_images/interior02_icon1.png" alt="전구">
+            <p>밝고 감각적인<br>옐로우 컬러</p>
+          </li>
+          <li>
+            <img src="MEGA_images/interior02_icon2.png" alt="차트">
+            <p>매장운영의 효율성을<br>높인 특화설계</p>
+          </li>
+          <li>
+            <img src="MEGA_images/interior02_icon3.png" alt="창">
+            <p>TAKE-OUT에<br>최적화 된 프로젝트 창</p>
+          </li>
+        </ul>
+        <div class="main-store"></div><!--백그라운드 이미지로 넣어줄거야-->
+      </div>
+      <div class="line"></div><!--노란박스선을 css로 줄거야-->
+      <ul class="store-img"><!--메인하단의 매장 이미지-->
+        <li><img src="MEGA_images/interior02_2_250822.jpg" alt="매장1"></li>
+        <li><img src="MEGA_images/interior02_3_250822.jpg" alt="매장2"></li>
+        <li><img src="MEGA_images/interior02_4_250822.jpg" alt="매장3"></li>
+      </ul>
+      <div class="main-last">
+        <h1><span>MODERN</span> & UNIQUE</h1>
+        <p>"감각적인 옐로우 컬러의 모던하고 세련된 외부 인테리어"</p>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer-top">
+      <ul>
+        <li>이용약관</li>
+        <li>개인정보처리방침</li>
+        <li>멤버십 이용약관</li>
+      </ul>
+    </div>
+    <div class="footer">
+      <div class="f-left">
+        <div class="f-logo">
+          <img src="MEGA_images/logo_w.png" alt="푸터로고">
+          <ul>
+            <li><img src="MEGA_images/sns_blog.png" alt="블로그"></li>
+            <li><img src="MEGA_images/sns_facebook.png" alt="페이스북"></li>
+            <li><img src="MEGA_images/sns_instagram.png" alt="인스타"></li>
+            <li><img src="MEGA_images/sns_smartstore.png" alt="스토어"></li>
+          </ul>
+        </div>
+        <div class="info">
+          <p><strong>주식회사 엠지씨글로벌</strong> 대표자 김대영 창업상담 1588-0656 고객센터 1588-8298</p>
+          <p>FAX 02-325-5199 사업자등록번호 105-87-51367</p>
+          <p>서울특별시 강남구 강남대로 518 11층, 13층 (주)엠지씨글로벌 개인정보보호 책임자 정명찬</p>
+        </div>
+      </div>
+      <div class="f-right">
+        <ul>
+          <li>메가 스토리</li>
+          <li>메뉴소개</li>
+          <li>매장</li>
+          <li>창업안내</li>
+          <li>메가소식</li>
+          <li>제휴문의</li>
+        </ul>
+      </div>
+      <div class="f-menu">
+        <ul>
+          <li><a href="#">브랜드</a></li>
+          <li><a href="#">BI</a></li>
+          <li><a href="#">오시는길</a></li>
+        </ul>
+        <ul class="f-1">
+          <li><a href="#">음료</a></li>
+          <li><a href="#">푸드</a></li>
+          <li><a href="#">상품</a></li>
+        </ul>
+        <ul class="f-2">
+          <li><a href="#">매장찾기</a></li>
+        </ul>
+        <ul class="f-3">
+          <li><a href="#">개설비용</a></li>
+          <li><a href="#">인테리어</a></li>
+          <li><a href="#">창업문의</a></li>
+          <li><a href="#">창업뉴스</a></li>
+        </ul>
+        <ul class="f-4">
+          <li><a href="#">공지사항</a></li>
+          <li><a href="#">이벤트</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">고객의 소리</a></li>
+        </ul>
+        <ul class="f-5">
+          <li><a href="#">상품제안</a></li>
+          <li><a href="#">마케팅 제휴</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
